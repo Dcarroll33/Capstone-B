@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string name="app_name">TWH</string>
+<string name="watering_hole">The Watering Hole</string>
+
+<!--Login Activity Strings-->
+<string name="login">Login</string>
+<string name="register">Register</string>
+
+
+<!--These are the string names used for buttons throughout the applciation-->
+<string name="locate_events">Locate Events</string>
+<string name="locate_friends">Locate Friends</string>
+<string name="finish">Finish</string>
+<string name="save">Save!</string>
+<string name="friends_profile">Friends Profile</string>
+<string name="Back">Back</string>
+<string name="Profile">Profile</string>
+<string name="Settings">Settings</string>
+<string name="Upload_Image">Upload Image</string>
+<string name="SaveEvent">Save Event</string>
+
+<!--Input field string names for the activity screens-->
+<string name="Profile_Picture">Profile Picture:</string>
+<string name="Theme">Theme</string>
+<string name="Description">Description:</string>
+<string name="Likes_Dislikes">Likes/Dislikes</string>
+<string name="Upload_Schedule">Upload Schedule</string>
+<string name="Hangout_Name">Hangout Name:</string>
+<string name="num_allowed">#Allowed in Hangout</string>
+<string name="View_permissions">View permissions</string>
+<string name="Location">Location:</string>
+<string name="Time">Time:</string>
+<string name="Date">Date:</string>
+
+<!--Text field string names used throughout the activity screens-->
+<string name="num_online">#Online:</string>
+<string name="num_available">#Available</string>
+<string name="num_busy">#Busy</string>
+<string name="Privacy_Mode">Privacy</string>
+<string name="Enable_Locator">Enable Locator</string>
+<string name="About">About</string>
+<string name="Version">Version 1.0</string>
+
+
+<!--These are the reference strings for buttons used throughout the program!-->
+<string name="title_activity_register">Register</string>
+<string name="Registration">Registration</string>
+<string name="Username">Username:</string>
+<string name="Password">Password:</string>
+<string name="new_password">New Password</string>
+<string name="repeat_password">Repeat Password</string>
+<string name="Email">Email:</string>
+<string name="Age">Age:</string>
+<string name="Events">Events</string>
+<string name="title_activity_locate_events">Locate Events</string>
+<string name="NearbyEvents">Nearby Events</string>
+<string name="title_activity_settings">Settings</string>
+<string name="title_activity_hangouts">Hangouts</string>
+<string name="Hangouts">Hangouts</string>
+<string name="HangoutsNearby">Hangouts Nearby</string>
+<string name="Create_Hangout">Create Hangout</string>
+<string name="Join_Hangout">Join Hangout</string>
+<string name="title_activity_friends">Friends</string>
+<string name="Locate__Friends">Locate Friends</string>
+<string name="title_activity_splash">Splash Screen</string>
+<string name="Confirm">Confirm</string>
+<string name="Friends">Friends</string>
+<string name="Save">Save</string>
+<string name="Load">Load</string>
+
+<!--Activity Screen Titles-->
+<string name="hangout_setup_title">Hangout Setup</string>
+<string name="locate_hangout_title">Locate Hangout</string>
+<string name="user_profile_title">User Profile</string>
+<string name="edit_profile_title">Edit Profile</string>
+<string name="friends_profile_title">Friends Profile</string>
+<string name="account_info_title">Account Info</string>
+<string name="hangout_page_title">Hangout Page</string>
+<string name="title_activity_slide_out_menu">SlideOutMenuActivity</string>
+<string name="main_menu_title">The Watering Hole</string>
+
+<!--Slide out menu string values-->
+
+    <string name="Slider_Menu">Slider Menu</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+
+    <!--Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >Home</item>
+        <item >Find People</item>
+        <item >Find Events</item>
+        <item >Find Hangouts</item>
+        <item >Edit Profile</item>
+        <item >Settings</item>
+
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Item names in order as the titles are in for the navigational menu-->
+    <array name="nav_drawer_icons">
+        <item>@drawable/home_icn</item>
+        <item>@drawable/friends_icon</item>
+        <item>@drawable/events_icn</item>
+        <item>@drawable/group_icn</item>
+        <item>@drawable/profile_icn</item>
+        <item>@drawable/settings_icn</item>
+    </array>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

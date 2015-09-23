@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".Login_Screen"
+    android:background="#ffbd32ff">
+
+    <TextView android:text="@string/watering_hole" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:textColor="#ffffc939"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/userNameText"
+        android:hint="Username"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="51dp"
+        android:layout_alignLeft="@+id/userNamePass"
+        android:layout_alignStart="@+id/userNamePass"
+        android:layout_alignRight="@+id/userNamePass"
+        android:layout_alignEnd="@+id/userNamePass"
+        android:background="@drawable/wateringhole_textfield_activated_holo_dark" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/userNamePass"
+        android:layout_below="@+id/userNameText"
+        android:hint="Password"
+        android:background="@drawable/wateringhole_textfield_activated_holo_dark" />
+
+    <Button
+        android:id="@+id/login_button"
+
+        android:text="Login"
+        android:textColor="#FEFFFA"
+        android:textSize="30sp"
+
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_below="@+id/userNamePass" />
+
+    <Button
+        android:id="@+id/register_button"
+        android:text="Register"
+        android:textColor="#FEFFFA"
+        android:textSize="30sp"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_below="@+id/login_button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <!--<ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/userNamePass"
+        android:layout_alignEnd="@+id/userNamePass"
+        android:layout_marginRight="34dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="64dp"
+        android:background="@drawable/wateringhole_progressbar_indeterminate_holo1" />
+        -->
+</RelativeLayout>

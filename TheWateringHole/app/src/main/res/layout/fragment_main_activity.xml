@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+
+        <Button
+            android:id="@+id/friends_btn"
+
+            android:text="@string/Friends"
+            android:textColor="#FEFFFA"
+            android:textSize="30sp"
+
+            android:layout_width="125dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/profile_btn"
+
+        android:text="@string/Profile"
+        android:textColor="#FEFFFA"
+        android:textSize="30sp"
+
+        android:layout_width="125dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10sp" />
+
+    <Button
+            android:id="@+id/settings_btn"
+
+            android:text="@string/Settings"
+            android:textColor="#FEFFFA"
+            android:textSize="25sp"
+
+            android:layout_width="125dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10sp" />
+
+    <Button
+            android:id="@+id/events_btn"
+
+            android:text="@string/Events"
+            android:textColor="#FEFFFA"
+            android:textSize="30sp"
+
+            android:layout_width="125dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10sp" />
+
+    <Button
+        android:id="@+id/sign_out_button"
+
+        android:text="Sign Out"
+        android:textColor="#FEFFFA"
+        android:textSize="20sp"
+
+        android:layout_width="125dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10sp" />
+
+</LinearLayout>
